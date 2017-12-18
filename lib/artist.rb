@@ -35,6 +35,11 @@ def self.find(name)
   self.all.find {|artist| artist.name == name } # find artist by name
 end
 
+def save
+   @@all << self
+ end
+
+
 def print_songs
   songs.each {|song| puts song.name} #prints all the artists songs
 end
