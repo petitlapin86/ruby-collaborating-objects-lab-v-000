@@ -23,7 +23,7 @@ def self.find_or_create_by_name(name)
 #takes the name passed in, find the artist it belongs to or create new artist name
 end
 def self.find(name)
-  self.all.find {|artist| artist.name == name }
+  self.all.find {|artist| artist.name == name } # find artist by name 
 end
 
 def print_songs
