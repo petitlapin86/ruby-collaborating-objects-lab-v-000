@@ -21,4 +21,10 @@ def find_or_create_by_name(name)
     self.find(name) ? self.find(name) : self.create(name)
 #takes the name passed in, find the artist it belongs to or create new artist name
 end
-end 
+
+def print_songs
+  songs.each {|song| puts song.name} #prints all the artists songs 
+end
+
+
+end
