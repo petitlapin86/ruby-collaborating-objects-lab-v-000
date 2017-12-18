@@ -5,6 +5,7 @@
 #or finding the instance of that artist (if the artist does exist).
 
 class Artist
+@@all = []
 
   attr_accessor :name, :songs
 
