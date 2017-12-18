@@ -5,6 +5,9 @@
 #or finding the instance of that artist (if the artist does exist).
 
 class Artist
+
+  attr_accessor :name, :songs
+  
 def initialize(name)
   @name = name
 end
