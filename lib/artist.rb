@@ -7,12 +7,12 @@
 class Artist
 
   attr_accessor :name, :songs
-  
+
 def initialize(name)
   @name = name
-  @songs = []
+  @songs = [] #create an empty array for songs
 end
 
 def add_song(song)
-  @songs << song
+  @songs << song #add songs to song array
 end
